@@ -1,0 +1,243 @@
+[
+    {
+      "value": "Accountability",
+      "shadow_behavior": "breaks the rules and is not punished for it"
+    },
+    {
+      "value": "Adaptability",
+      "shadow_behavior": "is too rigid in their processes"
+    },
+    {
+      "value": "Altruism",
+      "shadow_behavior": "serves for personal gain"
+    },
+    {
+      "value": "Authenticity",
+      "shadow_behavior": "doesn't present their true selves"
+    },
+    {
+      "value": "Balance",
+      "shadow_behavior": "overcommits to one thing to the detriment of others"
+    },
+    {
+      "value": "Belonging",
+      "shadow_behavior": "prefers isolation or does not welcome/embrace new team members"
+    },
+    {
+      "value": "Caring",
+      "shadow_behavior": "is cold to others"
+    },
+    {
+      "value": "Collaboration",
+      "shadow_behavior": "refuses to work with others"
+    },
+    {
+      "value": "Commitment",
+      "shadow_behavior": "breaks a promise"
+    },
+    {
+      "value": "Community building",
+      "shadow_behavior": "does not participate in, serve, or work to grow their community"
+    },
+    {
+      "value": "Compassion",
+      "shadow_behavior": "does not work to alleviate suffering"
+    },
+    {
+      "value": "Competence",
+      "shadow_behavior": "has no idea what they are doing"
+    },
+    {
+      "value": "Contribution",
+      "shadow_behavior": "doesn't pitch in to get the work done"
+    },
+    {
+      "value": "Courage",
+      "shadow_behavior": "acts out of fear"
+    },
+    {
+      "value": "Creativity",
+      "shadow_behavior": "does not seek new ways to perform their duties"
+    },
+    {
+      "value": "Dignity",
+      "shadow_behavior": "disrespects themselves or others"
+    },
+    {
+      "value": "Diversity",
+      "shadow_behavior": "treats people differently based on race, gender, abilities, or preferences"
+    },
+    {
+      "value": "Environment",
+      "shadow_behavior": "makes an area unpleasant by their actions"
+    },
+    {
+      "value": "Efficiency",
+      "shadow_behavior": "wastes time or effort in performing their duties"
+    },
+    {
+      "value": "Equality",
+      "shadow_behavior": "treats \"their\" group better"
+    },
+    {
+      "value": "Ethics",
+      "shadow_behavior": "violates organizational moral code"
+    },
+    {
+      "value": "Fairness",
+      "shadow_behavior": "is not impartial in their decision making"
+    },
+    {
+      "value": "Family",
+      "shadow_behavior": "spends too much time away from home"
+    },
+    {
+      "value": "Financial Responsibility",
+      "shadow_behavior": "spends too much money"
+    },
+    {
+      "value": "Forgiveness",
+      "shadow_behavior": "holds a grudge"
+    },
+    {
+      "value": "Fun",
+      "shadow_behavior": "is serious all the time"
+    },
+    {
+      "value": "Generosity",
+      "shadow_behavior": "is selfish"
+    },
+    {
+      "value": "Gratitude",
+      "shadow_behavior": "is ungrateful for what they have"
+    },
+    {
+      "value": "Growth",
+      "shadow_behavior": "refuses to improve"
+    },
+    {
+      "value": "Health",
+      "shadow_behavior": "doesn't take care of themselves"
+    },
+    {
+      "value": "Hope",
+      "shadow_behavior": "is a pessimist"
+    },
+    {
+      "value": "Humor",
+      "shadow_behavior": "is always serious"
+    },
+    {
+      "value": "Inclusion and welcoming",
+      "shadow_behavior": "excludes people"
+    },
+    {
+      "value": "Initiative",
+      "shadow_behavior": "won't start projects"
+    },
+    {
+      "value": "Integrity",
+      "shadow_behavior": "lies or goes back on their word"
+    },
+    {
+      "value": "Intuition",
+      "shadow_behavior": "doesn't trust their gut"
+    },
+    {
+      "value": "Job Security",
+      "shadow_behavior": "never knows if they will have a job tomorrow"
+    },
+    {
+      "value": "Justice",
+      "shadow_behavior": "dispenses rewards or punishments unfairly"
+    },
+    {
+      "value": "Knowledge",
+      "shadow_behavior": "doesn't learn, or doesn't share what they know"
+    },
+    {
+      "value": "Leadership",
+      "shadow_behavior": "refuses to take charge of a team or situation"
+    },
+    {
+      "value": "Legacy",
+      "shadow_behavior": "is not concerned about their lasting impact"
+    },
+    {
+      "value": "Leisure",
+      "shadow_behavior": "doesn't do anything for personal enjoyment"
+    },
+    {
+      "value": "Loyalty",
+      "shadow_behavior": "turns their back on you"
+    },
+    {
+      "value": "Making a difference",
+      "shadow_behavior": "is comfortable with how things are"
+    },
+    {
+      "value": "Order",
+      "shadow_behavior": "prefers chaos"
+    },
+    {
+      "value": "Patience",
+      "shadow_behavior": "is impatient or rushes through tasks"
+    },
+    {
+      "value": "Perseverance",
+      "shadow_behavior": "gives up when things get hard"
+    },
+    {
+      "value": "Recognition",
+      "shadow_behavior": "takes the praise for something you did"
+    },
+    {
+      "value": "Reliability",
+      "shadow_behavior": "can't be counted on"
+    },
+    {
+      "value": "Respect",
+      "shadow_behavior": "is rude to people around them"
+    },
+    {
+      "value": "Responsibility",
+      "shadow_behavior": "doesn't own their mistakes"
+    },
+    {
+      "value": "Risk-taking",
+      "shadow_behavior": "always plays it safe"
+    },
+    {
+      "value": "Security",
+      "shadow_behavior": "engages in risky behavior, potentially endangering others"
+    },
+    {
+      "value": "Service",
+      "shadow_behavior": "doesn't want to help others"
+    },
+    {
+      "value": "Teamwork",
+      "shadow_behavior": "doesn't participate as a team member or contribute to goals"
+    },
+    {
+      "value": "Time",
+      "shadow_behavior": "is not mindful of other people's time"
+    },
+    {
+      "value": "Trust",
+      "shadow_behavior": "violates trust"
+    },
+    {
+      "value": "Understanding",
+      "shadow_behavior": "does not ask questions"
+    },
+    {
+      "value": "Vision",
+      "shadow_behavior": "is short-sighted professionally"
+    },
+    {
+      "value": "Vulnerability",
+      "shadow_behavior": "never shows their softer side"
+    }
+  ]
+  
