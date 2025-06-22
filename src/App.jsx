@@ -15,11 +15,14 @@ function App() {
   const firstRound = () => {};
 
 const handleTop = () => {
+  setWinner(w => [...w, currentTop]);
+  setLoser(l => [...l, currentBottom]);
   setIndex(i => i +2)
-
 };
 
 const handleBottom = () => {
+  setWinner(w =>[...w, currentBottom]);
+  setLoser(l =>[...l, currentTop]);
   setIndex(i => i +2)
 };
 
