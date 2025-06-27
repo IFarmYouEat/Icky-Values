@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Match from "./Match";
 import FinalDisplay from "./FinalDisplay";
+import CurrentState from "./CurrentState";
 
 function Tournament({ initialItems }) {
   const [items, setItems] = useState([]);
-  const [, setLoser] = useState([]);
+  const [loser, setLoser] = useState([]);
   const [winner, setWinner] = useState([]);
   const [index, setIndex] = useState(0);
+  const [bracket, setBracket] = useState("initial")
+  const [singleLossPool, setSingleLossPool] = useState([])
   
   const [winnerChosen, setWinnerChosen] = useState(false);
 
@@ -24,12 +27,28 @@ function Tournament({ initialItems }) {
 
   useEffect(() => {
     if (index >= items.length && items.length > 0) {
-      if (winner.length > 1) {
+      if (winner.length > 1 && bracket === "initial") {
         setItems(winner);
+        setWinner([]);
+        setSingleLossPool(loser)
+        setLoser([])
+        setIndex(0);
+        setBracket("winner")
+      } else if (winner.length > 1 && bracket === "winner"){
+        setItems(singleLossPool);
+        setSingleLossPool(winner)
         setWinner([]);
         setLoser([]);
         setIndex(0);
-      } else if (winner.length === 1) {
+        setBracket("loser")
+      }else if (winner.length > 1 && bracket === "loser"){
+        setItems(singleLossPool);
+        setSingleLossPool(winner)
+        setWinner([]);
+        setLoser([]);
+        setIndex(0);
+        setBracket("winner")
+      }else if (winner.length === 1) {
         setWinnerChosen(true);
       }
     }
@@ -52,14 +71,23 @@ function Tournament({ initialItems }) {
   return (
     <div className="flex flex-col items-center">
       {!winnerChosen && currentTop && currentBottom ? (
+        <div>
         <Match
           top={currentTop}
           bottom={currentBottom}
           onSelectTop={handleTop}
           onSelectBottom={handleBottom}
         />
+        <CurrentState
+            bracket={bracket}
+            winner={winner}
+            loser={loser}
+            items={items}
+            singleLossPool={singleLossPool}
+        />
+        </div>
       ) : winnerChosen ? (
-        <FinalDisplay winner={winner[0]} />
+        <FinalDisplay winner={winner[0]} loser={loser} rest={singleLossPool} />
       ) : (
         <p className="text-xl mt-10">Preparing next round…</p>
       )}
