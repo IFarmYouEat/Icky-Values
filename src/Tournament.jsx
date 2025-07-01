@@ -78,13 +78,13 @@ function Tournament({ initialItems, prompt }) {
           onSelectBottom={handleBottom}
           question={prompt}
         />
-        <CurrentState
+     {/*    <CurrentState
             bracket={bracket}
             winner={winner}
             loser={loser}
             items={items}
             singleLossPool={singleLossPool}
-        />
+        /> */}
         </div>
       ) : winnerChosen ? (
         <FinalDisplay winner={winner[0]} loser={loser} rest={singleLossPool} />
