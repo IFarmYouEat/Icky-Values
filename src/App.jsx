@@ -4,16 +4,29 @@ import Tournament from "./Tournament";
 
 // Import multiple test sets
 import PersonalValues from "./data/PersonalValues.json";
-// import Set2 from "./data/Set2.json";
-// import Set3 from "./data/Set3.json";
-// import Set4 from "./data/Set4.json";
+import Leadership from "./data/Leadership.json";
+import PercievedOrganizationalValues from "./data/PerceivedOrganizationalValues.json";
+import DesiredOrganizationalValues from "./data/DesiredOrganizationalValues.json";
 
 const datasets = {
-  "Personal Values": PersonalValues,
-  // "Test Set 2": Set2,
-  // "Test Set 3": Set3,
-  // "Test Set 4": Set4,
+  "Desired Organizational Values": {
+    data: DesiredOrganizationalValues,
+    prompt: "I wish my organization would prioritize."
+  },
+  "Leadership": {
+    data: Leadership,
+    prompt: "I would be upset to hear that someone in the organization"
+  },
+  "Percieved Organizational Values": {
+    data: PercievedOrganizationalValues,
+    prompt: "I think my organization prioritizes"
+  },
+  "Personal Values": {
+    data: PersonalValues,
+    prompt: "It bothers me more when someone."
+  }
 };
+
 
 function App() {
   const [selectedSet, setSelectedSet] = useState(null);
@@ -38,7 +51,7 @@ function App() {
           </select>
         </div>
       ) : (
-        <Tournament initialItems={selectedSet} />
+        <Tournament initialItems={selectedSet.data} prompt={selectedSet.prompt} />
       )}
     </div>
   );

@@ -1,8 +1,8 @@
-function Match({ top, bottom, onSelectTop, onSelectBottom }) {
+function Match({ top, bottom, onSelectTop, onSelectBottom, question }) {
     return (
       <div className="flex flex-col items-center">
         <p className="mb-8 text-lg text-center">
-          Which coworker behavior would frustrate you more?
+          {question}
         </p>
   
         <button

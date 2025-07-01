@@ -1,0 +1,323 @@
+[
+    {
+      "id": 1,
+      "value": "Accountability",
+      "shadow_behavior": "ensuring my peers follow the rules"
+    },
+    {
+      "id": 2,
+      "value": "Adaptability",
+      "shadow_behavior": "encourage flexibility"
+    },
+    {
+      "id": 3,
+      "value": "Altruism",
+      "shadow_behavior": "serving the community selflessly"
+    },
+    {
+      "id": 4,
+      "value": "Authenticity",
+      "shadow_behavior": "encouraging people to be themselves"
+    },
+    {
+      "id": 5,
+      "value": "Balance",
+      "shadow_behavior": "encouraging people to have personal lives"
+    },
+    {
+      "id": 6,
+      "value": "Belonging",
+      "shadow_behavior": "integrating all staff into the team"
+    },
+    {
+      "id": 7,
+      "value": "Caring",
+      "shadow_behavior": "fostering an environment of kindness"
+    },
+    {
+      "id": 8,
+      "value": "Collaboration",
+      "shadow_behavior": "encouraging working with others to achieve goals"
+    },
+    {
+      "id": 9,
+      "value": "Commitment",
+      "shadow_behavior": "fulfilling obligations"
+    },
+    {
+      "id": 10,
+      "value": "Community building",
+      "shadow_behavior": "working to grow their community through service"
+    },
+    {
+      "id": 11,
+      "value": "Compassion",
+      "shadow_behavior": "empowering workers to alleviate suffering"
+    },
+    {
+      "id": 12,
+      "value": "Competence",
+      "shadow_behavior": "ensuring people know how to do their jobs"
+    },
+    {
+      "id": 13,
+      "value": "Contribution",
+      "shadow_behavior": "encouraging people to pitch in"
+    },
+    {
+      "id": 14,
+      "value": "Courage",
+      "shadow_behavior": "supporting people acting bravely in the face of adversity"
+    },
+    {
+      "id": 15,
+      "value": "Creativity",
+      "shadow_behavior": "encouraging new approaches to performing duties"
+    },
+    {
+      "id": 16,
+      "value": "Dignity",
+      "shadow_behavior": "respecting people"
+    },
+    {
+      "id": 17,
+      "value": "Diversity",
+      "shadow_behavior": "celebrates people for their differences"
+    },
+    {
+      "id": 18,
+      "value": "Environment",
+      "shadow_behavior": "fostering a pleasant workplace"
+    },
+    {
+      "id": 19,
+      "value": "Efficiency",
+      "shadow_behavior": "saving time and energy in task performance"
+    },
+    {
+      "id": 20,
+      "value": "Equality",
+      "shadow_behavior": "treating everyone equally"
+    },
+    {
+      "id": 21,
+      "value": "Ethics",
+      "shadow_behavior": "folowing amoral code"
+    },
+    {
+      "id": 22,
+      "value": "Fairness",
+      "shadow_behavior": "impartiality in decision making"
+    },
+    {
+      "id": 23,
+      "value": "Family",
+      "shadow_behavior": "employee's time with family"
+    },
+    {
+      "id": 24,
+      "value": "Financial Responsibility",
+      "shadow_behavior": "being responsible with public money"
+    },
+    {
+      "id": 25,
+      "value": "Forgiveness",
+      "shadow_behavior": "not holding a grudge"
+    },
+    {
+      "id": 26,
+      "value": "Fun",
+      "shadow_behavior": "fostering an environment of fun"
+    },
+    {
+      "id": 27,
+      "value": "Generosity",
+      "shadow_behavior": "giving freely, time and resources"
+    },
+    {
+      "id": 28,
+      "value": "Gratitude",
+      "shadow_behavior": "feeling thankful"
+    },
+    {
+      "id": 29,
+      "value": "Growth",
+      "shadow_behavior": "creating opportunities for growth"
+    },
+    {
+      "id": 30,
+      "value": "Health",
+      "shadow_behavior": "the well-being of employees"
+    },
+    {
+      "id": 31,
+      "value": "Hope",
+      "shadow_behavior": "seeing the good in situations"
+    },
+    {
+      "id": 32,
+      "value": "Humor",
+      "shadow_behavior": "laughing and joking"
+    },
+    {
+      "id": 33,
+      "value": "Inclusion and welcoming",
+      "shadow_behavior": "including people in processes and activities"
+    },
+    {
+      "id": 34,
+      "value": "Initiative",
+      "shadow_behavior": "assessing and beginning things independently"
+    },
+    {
+      "id": 35,
+      "value": "Integrity",
+      "shadow_behavior": "being honest"
+    },
+    {
+      "id": 36,
+      "value": "Intuition",
+      "shadow_behavior": "following one's gut"
+    },
+    {
+      "id": 37,
+      "value": "Job Security",
+      "shadow_behavior": "assuring us of our stability in the organization"
+    },
+    {
+      "id": 38,
+      "value": "Justice",
+      "shadow_behavior": "fair handling of situations"
+    },
+    {
+      "id": 39,
+      "value": "Knowledge",
+      "shadow_behavior": "learning and sharing information effectively"
+    },
+    {
+      "id": 40,
+      "value": "Leadership",
+      "shadow_behavior": "developing leaders"
+    },
+    {
+      "id": 41,
+      "value": "Legacy",
+      "shadow_behavior": "consciously making decisions that consider long-term impact"
+    },
+    {
+      "id": 42,
+      "value": "Leisure",
+      "shadow_behavior": "encouraging people to unwind in healthy ways"
+    },
+    {
+      "id": 43,
+      "value": "Loyalty",
+      "shadow_behavior": "having employee's back"
+    },
+    {
+      "id": 44,
+      "value": "Making a difference",
+      "shadow_behavior": "taking actions that positively impact the community"
+    },
+    {
+      "id": 45,
+      "value": "Order",
+      "shadow_behavior": "ensuring that things are run in an even controlled way"
+    },
+    {
+      "id": 46,
+      "value": "Patience",
+      "shadow_behavior": "tolerating mistakes without frustration"
+    },
+    {
+      "id": 47,
+      "value": "Perseverance",
+      "shadow_behavior": "meeting difficulties head on and not giving up"
+    },
+    {
+      "id": 48,
+      "value": "Recognition",
+      "shadow_behavior": "effectively recognizing people that do great work"
+    },
+    {
+      "id": 49,
+      "value": "Reliability",
+      "shadow_behavior": "being counted on"
+    },
+    {
+      "id": 50,
+      "value": "Respect",
+      "shadow_behavior": "treating others how they should be treated"
+    },
+    {
+      "id": 51,
+      "value": "Responsibility",
+      "shadow_behavior": "owning mistakes and making things right"
+    },
+    {
+      "id": 52,
+      "value": "Risk-taking",
+      "shadow_behavior": "willing to take calculated risks"
+    },
+    {
+      "id": 53,
+      "value": "Security",
+      "shadow_behavior": "ensuring the safety of all employees"
+    },
+    {
+      "id": 54,
+      "value": "Service",
+      "shadow_behavior": "working to help others"
+    },
+    {
+      "id": 55,
+      "value": "Teamwork",
+      "shadow_behavior": "participating as a teammember"
+    },
+    {
+      "id": 56,
+      "value": "Time",
+      "shadow_behavior": "being mindful of other people's time"
+    },
+    {
+      "id": 57,
+      "value": "Trust",
+      "shadow_behavior": "being trustworthy"
+    },
+    {
+      "id": 58,
+      "value": "Understanding",
+      "shadow_behavior": "asking questions to understand people and situations"
+    },
+    {
+      "id": 59,
+      "value": "Vision",
+      "shadow_behavior": "looking forward to the future"
+    },
+    {
+      "id": 60,
+      "value": "Vulnerability",
+      "shadow_behavior": "being willing to show their softer side and owning weaknesses"
+    },
+    {
+      "id":61,
+      "value": "Placeholder61",
+      "shadow_behavior": "Placeholder61"
+    },
+    {
+      "id":62,
+      "value": "Placeholder62",
+      "shadow_behavior": "Placeholder62"
+    },
+    {
+      "id":63,
+      "value": "Placeholder63",
+      "shadow_behavior": "Placeholder63"
+    },
+    {
+      "id":64,
+      "value": "Placeholder64",
+      "shadow_behavior": "Placeholder64"
+    }
+  ]
+  

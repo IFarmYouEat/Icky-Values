@@ -3,14 +3,13 @@ import Match from "./Match";
 import FinalDisplay from "./FinalDisplay";
 import CurrentState from "./CurrentState";
 
-function Tournament({ initialItems }) {
+function Tournament({ initialItems, prompt }) {
   const [items, setItems] = useState([]);
   const [loser, setLoser] = useState([]);
   const [winner, setWinner] = useState([]);
   const [index, setIndex] = useState(0);
   const [bracket, setBracket] = useState("initial")
   const [singleLossPool, setSingleLossPool] = useState([])
-  
   const [winnerChosen, setWinnerChosen] = useState(false);
 
   useEffect(() => {
@@ -77,6 +76,7 @@ function Tournament({ initialItems }) {
           bottom={currentBottom}
           onSelectTop={handleTop}
           onSelectBottom={handleBottom}
+          question={prompt}
         />
         <CurrentState
             bracket={bracket}
