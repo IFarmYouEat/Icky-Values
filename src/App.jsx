@@ -23,7 +23,7 @@ const datasets = {
   },
   "Personal Values": {
     data: PersonalValues,
-    prompt: "It bothers me more when someone."
+    prompt: "It bothers me more when someone close to me."
   }
 };
 

@@ -26,7 +26,7 @@ function FinalDisplay({ winner, rest, loser }) {
   
         <div>
           <h3 className="text-lg font-semibold text-gray-600 mt-4">
-            Terciary Priorities:
+            Tertiary Priorities:
           </h3>
           <ul className="mt-2 space-y-1">
             {rest.map((item) => (
